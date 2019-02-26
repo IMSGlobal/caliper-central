@@ -20,27 +20,50 @@ requests from non-members. See [CONTRIBUTING.md](./CONTRIBUTING.md) for more
 information.
 
 ## Caliper Github repositories
-### Docset
-* [caliper-spec](https://github.com/IMSGlobal/caliper-spec)
-* [caliper-cert-guide](https://github.com/IMSGlobal/caliper-cert-guide)
-* [caliper-implementation-guide](https://github.com/IMSGlobal/caliper-impl-guide)
-* [caliper-ontology](https://github.com/IMSGlobal/caliper-ontology)
-* [caliper-contexts](https://github.com/IMSGlobal/caliper-contexts)
 
-### Reference implementations
-* [caliper-java](https://github.com/IMSGlobal/caliper-java)
-* [caliper-js](https://github.com/IMSGlobal/caliper-js)
-* [caliper-php](https://github.com/IMSGlobal/caliper-php)
-* [caliper-python](https://github.com/IMSGlobal/caliper-python)
-* [caliper-net](https://github.com/IMSGlobal/caliper-net)
-* [caliper-ruby](https://github.com/IMSGlobal/caliper-ruby)
+### Core Documents
+
+|Name|Public Version|Description|
+|--- |--- |--- |
+|[caliper-central](https://github.com/IMSGlobal/caliper-central)| |This repo. Central place to log and manage Github issues.|
+|[caliper-spec](https://github.com/IMSGlobal/caliper-spec)| |The main spec document.|
+|[caliper-impl-guide](https://github.com/IMSGlobal/caliper-impl-guide)| |The implementation guide document.|
+|[caliper-cert-guide](https://github.com/IMSGlobal/caliper-cert-guide)| ||
+|[caliper-ontology](https://github.com/IMSGlobal/caliper-ontology)| |caliper-ontology provides machine-readable documents that define the concepts, relationships and constraints that together comprise the Caliper information model. The ontology is available in three flavors: JSON-LD, RDF/XML and Turtle.|
+|[caliper-contexts](https://github.com/IMSGlobal/caliper-contexts)|[Yes](https://github.com/IMSGlobal/caliper-contexts-public)|Caliper JSON-LD context documents for mapping Caliper terms to IRIs.|
 
 ### Test fixtures and JSON schema
-* [caliper-common-fixtures](https://github.com/IMSGlobal/caliper-common-fixtures)
-* [caliper-json-schema](https://github.com/IMSGlobal/caliper-json-schema)
 
-### Demo code
-* [caliper-js-example](https://github.com/IMSGlobal/caliper-js-example)
+|Name|Public Version|Description|
+|--- |--- |--- |
+|[caliper-common-fixtures](https://github.com/IMSGlobal/caliper-common-fixtures)|[Yes](https://github.com/IMSGlobal/caliper-common-fixtures-public)|A set of unit test fixtures for reference implementations to test against. Great for finding examples of Caliper Event JSON.|
+|[caliper-json-schema](https://github.com/IMSGlobal/caliper-json-schema)| |A set of JSON schemas that can be used to validate Caliper JSON-based documents.|
+
+### Related Specs
+
+|Name|Public Version|Description|
+|--- |--- |--- |
+|[LTI-spec-Caliper](https://github.com/IMSGlobal/LTI-spec-Caliper)| |An LTI spec explaining how to use Caliper with LTI tools.|
+
+### Example Apps
+
+|Name|Public Version|Description|
+|--- |--- |--- |
+|[caliper-java-example-public](https://github.com/IMSGlobal/caliper-java-example-public)|Yes||
+|[caliper-js-example](https://github.com/IMSGlobal/caliper-js-example)|||
+|[caliper-eventstore-public](https://github.com/IMSGlobal/caliper-eventstore-public)|Yes||
+
+### Reference Implementations
+
+|Name|Public Version|Description|
+|--- |--- |--- |
+|[caliper-java](https://github.com/IMSGlobal/caliper-java)|[Yes](https://github.com/IMSGlobal/caliper-java-public)|Java library|
+|[caliper-js](https://github.com/IMSGlobal/caliper-js)|[Yes](https://github.com/IMSGlobal/caliper-js-public)|Javascript library|
+|[caliper-python](https://github.com/IMSGlobal/caliper-python)|[Yes](https://github.com/IMSGlobal/caliper-python-public)|Python library|
+|[caliper-net](https://github.com/IMSGlobal/caliper-net)|[Yes](https://github.com/IMSGlobal/caliper-net-public)|.NET library|
+|[caliper-ruby](https://github.com/IMSGlobal/caliper-ruby)|[Yes](https://github.com/IMSGlobal/caliper-ruby-public)|Ruby library|
+|[caliper-php](https://github.com/IMSGlobal/caliper-php)|[Yes](https://github.com/IMSGlobal/caliper-php-public)|PHP library|
+
 
 ©2018 IMS Global Learning Consortium, Inc. All Rights Reserved.
 Trademark Information - http://www.imsglobal.org/copyright.html
