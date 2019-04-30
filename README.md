@@ -23,47 +23,46 @@ information.
 
 ### Core Documents
 
-|Name|Public Version|Description|
-|--- |--- |--- |
-|[caliper-central](https://github.com/IMSGlobal/caliper-central)| |This repo. Central place to log and manage Github issues.|
-|[caliper-spec](https://github.com/IMSGlobal/caliper-spec)| |The main spec document.|
-|[caliper-impl-guide](https://github.com/IMSGlobal/caliper-impl-guide)| |The implementation guide document.|
-|[caliper-cert-guide](https://github.com/IMSGlobal/caliper-cert-guide)| ||
-|[caliper-ontology](https://github.com/IMSGlobal/caliper-ontology)| |caliper-ontology provides machine-readable documents that define the concepts, relationships and constraints that together comprise the Caliper information model. The ontology is available in three flavors: JSON-LD, RDF/XML and Turtle.|
-|[caliper-contexts](https://github.com/IMSGlobal/caliper-contexts)|[Yes](https://github.com/IMSGlobal/caliper-contexts-public)|Caliper JSON-LD context documents for mapping Caliper terms to IRIs.|
+| Name                                                                  | Is Public? | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------------------------------------------------------------------|----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [caliper-central](https://github.com/IMSGlobal/caliper-central)       | Yes| This repo. Central place to log and manage Github issues.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [caliper-spec](https://github.com/IMSGlobal/caliper-spec)             | Yes | The main spec document.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [caliper-impl-guide](https://github.com/IMSGlobal/caliper-impl-guide) | No |   The implementation guide document. <br>(For the current development of Caliper 1.2, this document has been moved into the [caliper-spec](https://github.com/IMSGlobal/caliper-spec) repository. For 1.1 it's still on the master branch of this repo.)                                                                                                                                                                                                        |
+| [caliper-cert-guide](https://github.com/IMSGlobal/caliper-cert-guide) | Yes |  The Certification guide specifies the requirements and process for certification. <br>(For the current development of Caliper 1.2, this document has been moved into the [caliper-spec](https://github.com/IMSGlobal/caliper-spec) repository. For 1.1 it's still on the master branch of this repo.)                                                                                                                                                          |
+| [caliper-ontology](https://github.com/IMSGlobal/caliper-ontology)     | Yes |  caliper-ontology provides machine-readable documents that define the concepts, relationships and constraints that together comprise the Caliper information model. The ontology is available in three flavors: JSON-LD, RDF/XML and Turtle. <br>(For the current development of Caliper 1.2, this document has been moved into the [caliper-spec](https://github.com/IMSGlobal/caliper-spec)  repository. For 1.1 it's still on the master branch of this repo.) |
+| [caliper-contexts](https://github.com/IMSGlobal/caliper-contexts)     | Yes| Caliper JSON-LD context documents for mapping Caliper terms to IRIs.                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ### Test fixtures and JSON schema
 
-|Name|Public Version|Description|
+|Name|Is Public?|Description|
 |--- |--- |--- |
-|[caliper-common-fixtures](https://github.com/IMSGlobal/caliper-common-fixtures)|[Yes](https://github.com/IMSGlobal/caliper-common-fixtures-public)|A set of unit test fixtures for reference implementations to test against. Great for finding examples of Caliper Event JSON.|
-|[caliper-json-schema](https://github.com/IMSGlobal/caliper-json-schema)| |A set of JSON schemas that can be used to validate Caliper JSON-based documents.|
+|[caliper-common-fixtures](https://github.com/IMSGlobal/caliper-common-fixtures)|Yes|A set of unit test fixtures for reference implementations to test against. Great for finding examples of Caliper Event JSON.|
+|[caliper-json-schema](https://github.com/IMSGlobal/caliper-json-schema)|No |A set of JSON schemas that can be used to validate Caliper JSON-based documents.|
 
 ### Related Specs
 
 |Name|Public Version|Description|
 |--- |--- |--- |
-|[LTI-spec-Caliper](https://github.com/IMSGlobal/LTI-spec-Caliper)| |An LTI spec explaining how to use Caliper with LTI tools.|
+|[LTI-spec-Caliper](https://github.com/IMSGlobal/LTI-spec-Caliper)|Unpublished |An LTI spec explaining how to use Caliper with LTI tools.|
 
 ### Example Apps
 
-|Name|Public Version|Description|
+|Name|Is Public?|Description|
 |--- |--- |--- |
 |[caliper-java-example-public](https://github.com/IMSGlobal/caliper-java-example-public)|Yes||
-|[caliper-js-example](https://github.com/IMSGlobal/caliper-js-example)|||
+|[caliper-js-example](https://github.com/IMSGlobal/caliper-js-example)|Yes||
 |[caliper-eventstore-public](https://github.com/IMSGlobal/caliper-eventstore-public)|Yes||
 
 ### Reference Implementations
 
-|Name|Public Version|Description|
-|--- |--- |--- |
-|[caliper-java](https://github.com/IMSGlobal/caliper-java)|[Yes](https://github.com/IMSGlobal/caliper-java-public)|Java library|
-|[caliper-js](https://github.com/IMSGlobal/caliper-js)|[Yes](https://github.com/IMSGlobal/caliper-js-public)|Javascript library|
-|[caliper-python](https://github.com/IMSGlobal/caliper-python)|[Yes](https://github.com/IMSGlobal/caliper-python-public)|Python library|
-|[caliper-net](https://github.com/IMSGlobal/caliper-net)|[Yes](https://github.com/IMSGlobal/caliper-net-public)|.NET library|
-|[caliper-ruby](https://github.com/IMSGlobal/caliper-ruby)|[Yes](https://github.com/IMSGlobal/caliper-ruby-public)|Ruby library|
-|[caliper-php](https://github.com/IMSGlobal/caliper-php)|[Yes](https://github.com/IMSGlobal/caliper-php-public)|PHP library|
-
+| Name                                                          | Is Public? | Description        |
+|---------------------------------------------------------------|------------|--------------------|
+| [caliper-java](https://github.com/IMSGlobal/caliper-java)     | Yes        | Java library       |
+| [caliper-js](https://github.com/IMSGlobal/caliper-js)         | Yes        | Javascript library |
+| [caliper-python](https://github.com/IMSGlobal/caliper-python) | Yes        | Python library     |
+| [caliper-net](https://github.com/IMSGlobal/caliper-net)       | Yes        | .NET library       |
+| [caliper-ruby](https://github.com/IMSGlobal/caliper-ruby)     | Yes        | Ruby library       |
+| [caliper-php](https://github.com/IMSGlobal/caliper-php)       | Yes        | PHP library        |
 
 ©2018 IMS Global Learning Consortium, Inc. All Rights Reserved.
 Trademark Information - http://www.imsglobal.org/copyright.html
